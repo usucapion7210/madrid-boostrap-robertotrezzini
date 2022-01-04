@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+      <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto+Mono:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+
+            <link rel="stylesheet" href="../css/bootstrap.css">
+            <link rel="stylesheet" href="../css/estilos.css" />
+
+            <title>Contacto</title>
+      </head>
+
+      <body>
+            <div class="container-fluid">
+                  <header class="container header alto pantalla">
+                        <h1 id="logo">Madrid</h1>
+                        <nav class="navbar navbar-expand-lg navbar-light bg-fondo3">
+                              <div class="container-fluid">
+
+                                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                          <span class="navbar-toggler-icon fondo2"></span>
+                                    </button>
+                                    <div class="collapse navbar-collapse" id="navbarNav">
+                                          <ul class="navbar-nav text-lg-end ms-auto">
+                                                <li class="nav-item">
+                                                      <a class="nav-link active text-light" href="../index.html">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                      <a class="nav-link text-light text-nowrap" href="atractivos.html">Sus barrios</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                      <a class="nav-link text-light" href="excursio.html">Excursiones</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                      <a class="nav-link text-light" href="info.html">Eventos</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                      <a class="nav-link text-light" href="contacto.html">Contacto</a>
+                                                </li>
+                                          </ul>
+                                    </div>
+                              </div>
+                        </nav>
+
+                  </header>
+
+                  <aside class="section">
+                        <p class="article__texto">Si necesitas más información sobre la ciudad, dejanos tu mail y nos comunicaremos contigo...</p>
+                        <form action="http://recursos.grodriguez.com.ar/FORM/" method="post" enctype="multipart/form-data">
+                              <div>
+                                    <label>Nombre</label>
+                                    <input type="text" name="nombre" required />
+                              </div>
+                              <div>
+                                    <label>email</label>
+                                    <input type="email" name="mail" required placeholder="mi.mail@algo.com" />
+                              </div>
+                              <div>
+                                    <label>Tu comentario</label>
+                                    <textarea name="comentario" cols="45" rows="15"></textarea>
+                              </div>
+
+                              <div id="boton">
+                                    <input type="button" value="Enviar">
+                              </div>
+                        </form>
+                  </aside>
+
+                  <footer>
+                        <p>&copy; Roberto Trezzini 2021</p>
+                  </footer>
+            </div>
+            <script src="../js/picturefill.js"></script>
+            <script src="../js/bootstrap.bundle.js"></script>
+      </body>
+
+</html>
