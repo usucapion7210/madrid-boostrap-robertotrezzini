@@ -127,16 +127,6 @@ footer {
 }
 
 
-.videoMax {
-    max-width: 560px;
-    max-height: 315pxs;
-
-}
-
-.transp {
-    background: transparent;
-}
-
-div[class=ratio] {
-    margin: auto;
+.textShadow {
+    text-shadow: 2px 2px 6px grey;
 }
