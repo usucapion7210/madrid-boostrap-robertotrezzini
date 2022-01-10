@@ -27,7 +27,7 @@
 }
 
 .fondo3 {
-    background-color: lightsalmon;
+    background-color: rgba(255, 160, 122, .5);
 }
 
 .filter {
@@ -104,10 +104,6 @@ header {
     }
 }
 
-.columna {
-    columns: 2;
-    column-gap: 1.5rem;
-}
 
 footer {
     height: 10rem;
@@ -181,4 +177,8 @@ footer {
     top: 10px;
     left: 10px;
     z-index: 1;
+}
+
+#toledo {
+    margin-top: 5rem;
 }
