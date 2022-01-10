@@ -110,7 +110,8 @@ header {
 }
 
 footer {
-    height: 5rem;
+    height: 10rem;
+
     background-color: rgba(44, 43, 43, 0.623);
 }
 
@@ -134,4 +135,50 @@ footer {
 .mBottom,
 .mtop {
     margin-bottom: 6rem;
+}
+
+.fb {
+    display: inline-block;
+    background-image: url("../img/sprite.png");
+    width: 84px;
+    height: 84px;
+    font-size: 0;
+    background-position: 0px -84px;
+}
+
+.tw {
+    display: inline-block;
+    background-image: url("../img/sprite.png");
+    width: 84px;
+    height: 84px;
+    font-size: 0;
+    background-position: -672px -84px;
+
+}
+
+.yt {
+    display: inline-block;
+    background-image: url("../img/sprite.png");
+    width: 84px;
+    height: 84px;
+    font-size: 0;
+    background-position: -840px -84px;
+
+}
+
+.list--style {
+    list-style: none;
+}
+
+#logo--footer {
+    width: 181px;
+    height: 80px;
+    background-image: url("../img/logoblanco.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 0;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
 }
