@@ -128,9 +128,12 @@ footer {
     text-shadow: 5px 5px 6px black;
 }
 
-.mBottom,
-.mtop {
+.mBottom {
     margin-bottom: 6rem;
+}
+
+.mtop {
+    margin-top: 6rem;
 }
 
 .fb {
@@ -177,8 +180,4 @@ footer {
     top: 10px;
     left: 10px;
     z-index: 1;
-}
-
-#toledo {
-    margin-top: 5rem;
 }
