@@ -20,47 +20,145 @@
 	</head>
 
 	<body class="draw lh-base">
-		<div class="container-fluid">
-			<header class="container header alto pantalla">
-				<h1 id="logo">Madrid</h1>
-				<nav class="navbar navbar-expand-lg navbar-light bg-fondo3">
-					<div class="container-fluid">
+		<div class="container-fluid filter">
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				<div class="container">
+					<h1 id="logo">Madrid</h1>
 
-						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="navbar-toggler-icon fondo2"></span>
-						</button>
-						<div class="collapse navbar-collapse" id="navbarNav">
-							<ul class="navbar-nav text-lg-end ms-auto">
-								<li class="nav-item">
-									<a class="nav-link active text-light" href="../index.html">Home</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link text-light text-nowrap" href="atractivos.html">Sus barrios</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link text-light" href="excursio.html">Excursiones</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link text-light" href="info.html">Eventos</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link text-light" href="contacto.html">Contacto</a>
-								</li>
-							</ul>
+
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon "></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav text-lg-end ms-auto">
+							<li class="nav-item ">
+								<a class="nav-link active text-light d-block " href="../index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class=" nav-link text-light text-nowrap " href=" atractivos.html">Sus barrios</a>
+							</li>
+							<li class="nav-item">
+								<a class=" nav-link text-light " href=" excursio.html">Excursiones</a>
+							</li>
+							<li class="nav-item">
+								<a class=" nav-link text-light " href=" info.html">Eventos</a>
+							</li>
+							<li class="nav-item">
+								<a class=" nav-link text-light " href=" contacto.html">Contacto</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+
+			<!--* carrusel -->
+			<header>
+				<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+					<div class="carousel-indicators">
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+					</div>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="../img/eventos-banner1.jpg" class="d-block w-100 m-auto" alt="Recital en un estadio">
+							<div class="carousel-caption d-none d-md-block">
+								<h2 class="text-light garine fz-title textShadow fw-bold mBottom">EVENTOS</h2>
+							</div>
+						</div>
+						<div class=" carousel-item">
+							<img src="../img/eventos-banner2.jpg" class="d-block w-100 m-auto" alt="Banda tocando a full">
+							<div class="carousel-caption d-none d-md-block">
+								<h2 class="text-light garine fz-title textShadow fw-bold mBottom">EVENTOS</h2>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="../img/eventos-banner3.jpg" class="d-block w-100 m-auto" alt="">
+							<div class="carousel-caption d-none d-md-block">
+								<h2 class="garine text-light textShadow fz-title fw-bold mBottom">EVENTOS</h2>
+							</div>
 						</div>
 					</div>
-				</nav>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+
 
 			</header>
 
+			<section>
+				<div class="row">
+					<p class=" col-12  fw-bold fs-2 textShadow text-light text-center mtop">Te adelantamos algunas de las bandas y solistas que estarán visitando la ciudad de Madrid durante el 2022.</p>
+					<!-- cards -->
+					<div class="row d-flex flex-column justify-content-center d-lg-flex flex-lg-row justify-content-lg-around mtop mBottom p-2">
+						<div class="card" style="width: 15rem;">
+							<img src="../img/aerosmith_1.jpg" class="card-img-top pt-3" alt="Aerosmith">
+							<div class="card-body">
+								<h2 class="card-title garine text-center">Aerosmith</h2>
+								<p class="card-text">La mítica formación estadounidense liderada por Steven Tyler celebrará su 50 aniversario con un concierto muy especial (Estadio Wanda Metropolitano. 4 junio 2022).</p>
+								<div></div>
+								<a href="https://www.aerosmith.com/" class="btn btn-primary d-block align-text-bottom">Ver más</a>
+							</div>
+						</div>
+						<div class="card" style="width: 15rem;">
+							<img src="../img/franz_0.jpg" class="card-img-top pt-3" alt="Franz Ferdinand">
+							<div class="card-body">
+								<h2 class="card-title garine text-nowrap text-center">Franz Ferdinand</h2>
+								<p class="card-text">La banda escocesa que lleva más de 20 años de carrera emprende nueva gira, Hits To The Head, en la que repasan todos sus grandes éxitos (WiZink Center. 16 marzo).</p>
+								<div></div>
+								<a href="https://franzferdinand.com/home/" class="btn btn-primary d-block">Ver más</a>
+							</div>
+						</div>
+						<div class="card" style="width: 15rem;">
+							<img src="../img/foo_fighters2.jpg" class="card-img-top pt-3" alt="foo_fighters">
+							<div class="card-body">
+								<h2 class="card-title garine text-nowrap text-center">Foo Fighters</h2>
+								<p class="card-text">La banda estadounidense emprende su gira 26 aniversario donde interpretarán sus temas más icónicos y su décimo álbum, Medicine at Midnight (Estadio Wanda Metropolitano. 20 junio 2022).</p>
+								<div></div>
+								<a href="https://www.foofighters.com/" class="btn btn-primary d-block">Ver más</a>
+							</div>
+						</div>
+						<div class="card" style="width: 15rem;">
+							<img src="../img/evanescence_1.jpg" class="card-img-top pt-3" alt="Evanescence">
+							<div class="card-body">
+								<h2 class="card-title garine text-center">Evanescence</h2>
+								<p class="card-text">La mítica banda liderada por Amy Lee interpretará sus mayores éxitos, además de algunos temas que componen su nuevo trabajo (Palacio Vistalegre Arena. 19 abril 2022).</p>
+								<div></div>
+								<a href="https://www.evanescence.com/home/" class="btn btn-primary d-block">Ver más</a>
+							</div>
+						</div>
+						<div class="card" style="width: 15rem;">
+							<img src="../img/maluma_1.jpg" class="card-img-top pt-3" alt="Maluma">
+							<div class="card-body">
+								<h2 class="card-title garine text-center">Maluma</h2>
+								<p class="card-text align-text-bottom">El ídolo mundial de la música latina y ganador de un Latin Grammy, regresa con su nueva gira internacional Papi Juancho (WiZink Center. 5 abril 2022).</p>
+								<div></div>
+								<a href="https://maluma.online/" class="btn btn-primary d-block align-items-end">Ver más</a>
+							</div>
+						</div>
+					</div>
 
-			<section class="section">
-				<article class="section__article article1">
+
+
+
+
+
+
+
+
+				</div>
+			</section>
+
+			<!-- <section class="container">
+				<article class="row">
 					<figure class="article__figure">
-						<picture>
-							<source srcset="../img/Aerosmith_1.jpg" media="(max-width: 866px)" />
-
-							<img src="../img/aerosmith_2.jpg" alt="La banda californiana liderada por Steven Tyler"></picture>
+						<img class="image-fluid img-thumbnail sombra" src="../img/aerosmith_2.jpg" alt="La banda californiana liderada por Steven Tyler">
 						<figcaption></figcaption>
 					</figure>
 					<h2 class="section__titulo article__titulo">Aerosmith</h2>
@@ -128,7 +226,7 @@
 					<p class="article__texto">El ídolo mundial de la música latina y ganador de un Latin Grammy, regresa con su nueva gira internacional Papi Juancho (WiZink Center. 5 abril 2022).</p>
 				</article>
 
-			</section>
+			</section> -->
 			<footer class="row color h-auto position-relative ">
 				<h2 id="logo--footer" class="p-5">Madrid</h2>
 				<h3 class="text-center">Seguinos en nuestas redes sociales</h3>
