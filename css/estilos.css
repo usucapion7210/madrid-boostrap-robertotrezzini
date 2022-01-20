@@ -31,7 +31,7 @@
 }
 
 .filter {
-  background-color: rgba(247, 176, 148, 0.5);
+  background-color: rgba(247, 176, 148, 0.75);
 }
 
 .fondo4 {
@@ -104,21 +104,23 @@ header {
   }
 }
 
+@media screen and (min-width: 576px) {
+  .draw {
+    background-image: url("../img/dibujo2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
+
 footer {
   height: 10rem;
   background-color: rgba(44, 43, 43, 0.623);
 }
 
-.draw {
-  background-image: url("../img/dibujo2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
 .sombra {
   -webkit-box-shadow: 5px 5px 5px gray;
-  box-shadow: 5px 5px 5px gray;
+          box-shadow: 5px 5px 5px gray;
 }
 
 .textShadow {
@@ -180,14 +182,16 @@ footer {
 .contacto__header {
   width: 100vw;
   height: 40vh;
-
+  background-image: url("../img/debod-desk.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.contenedor {
+.contacto__fondo {
   background-image: url("../img/dibuSol.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
-
 /*# sourceMappingURL=estilos.css.map */

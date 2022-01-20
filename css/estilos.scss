@@ -35,7 +35,7 @@
 }
 
 .filter {
-	background-color: rgba(247, 176, 148, 0.5);
+	background-color: rgba(247, 176, 148, 0.75);
 }
 
 .fondo4 {
@@ -107,18 +107,19 @@ header {
 		left: calc(50% - 90.5px);
 	}
 }
+@media screen and (min-width: 576px) {
+	.draw {
+		background-image: url("../img/dibujo2.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+}
 
 footer {
 	height: 10rem;
 
 	background-color: rgba(44, 43, 43, 0.623);
-}
-
-.draw {
-	background-image: url("../img/dibujo2.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
 }
 
 .sombra {
