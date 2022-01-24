@@ -55,10 +55,10 @@
 }
 
 .alto {
-  height: 300px;
+  height: 4rem;
 }
 
-.vinculo {
+.height .vinculo {
   list-style: none;
 }
 
@@ -86,21 +86,22 @@ header {
 }
 
 #logo {
-  width: 181px;
-  height: 80px;
+  width: 100px;
+  height: 28px;
   background-image: url("../img/logoblanco.png");
   background-repeat: no-repeat;
-  background-size: contain;
-  font-size: 0;
+  background-size: cover;
   position: absolute;
-  top: 8px;
-  left: 40px;
+  text-indent: -100000px;
+  top: 20px;
+  left: 30px;
   z-index: 1;
 }
 
 @media screen and (max-width: 991px) {
-  #logo {
-    left: calc(50% - 90.5px);
+  #logo,
+  .logo--footer {
+    left: calc(50% - 50px);
   }
 }
 
@@ -110,6 +111,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    font-weight: 600;
   }
 }
 
@@ -136,30 +138,57 @@ footer {
 }
 
 .fb {
-  display: inline-block;
-  background-image: url("../img/sprite.png");
-  width: 84px;
-  height: 84px;
+  background-image: url("../img/sprite2.png");
+  width: 42px;
+  height: 42px;
   font-size: 0;
-  background-position: 0px -84px;
+  background-position: -0px -84px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.fb:hover {
+  background-image: url("../img/sprite2.png");
+  width: 42px;
+  height: 42px;
+  font-size: 0;
+  background-position: -0px -42px;
 }
 
 .tw {
-  display: inline-block;
-  background-image: url("../img/sprite.png");
-  width: 84px;
-  height: 84px;
+  background-image: url("../img/sprite2.png");
+  width: 42px;
+  height: 42px;
   font-size: 0;
-  background-position: -672px -84px;
+  background-position: -336px -84px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.tw:hover {
+  background-image: url("../img/sprite2.png");
+  width: 42px;
+  height: 42px;
+  font-size: 0;
+  background-position: -336px -42px;
 }
 
 .yt {
-  display: inline-block;
-  background-image: url("../img/sprite.png");
-  width: 84px;
-  height: 84px;
+  background-image: url("../img/sprite2.png");
+  width: 42px;
+  height: 42px;
   font-size: 0;
-  background-position: -840px -84px;
+  background-position: -420px -84px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.yt:hover {
+  background-image: url("../img/sprite2.png");
+  width: 42px;
+  height: 42px;
+  font-size: 0;
+  background-position: -420px -42px;
 }
 
 .list--style {
@@ -167,16 +196,12 @@ footer {
 }
 
 #logo--footer {
-  width: 181px;
-  height: 80px;
+  width: 100;
+  height: 28px;
   background-image: url("../img/logoblanco.png");
   background-repeat: no-repeat;
   background-size: contain;
   font-size: 0;
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  z-index: 1;
 }
 
 .contacto__header {
@@ -193,5 +218,9 @@ footer {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+
+.letterSpace {
+  letter-spacing: 1px;
 }
 /*# sourceMappingURL=estilos.css.map */
