@@ -1,7 +1,0 @@
-LINK GITHUB PAGES
-https://usucapion7210.github.io/madrid-boostrap-robertotrezzini/
-
-LINK 000WEBHOST
-
-https://madridciudad.000webhostapp.com/
-
