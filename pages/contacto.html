@@ -19,204 +19,129 @@
             <title>Contacto</title>
       </head>
 
-      <body class="draw">
+      <body class="contacto__header">
+            <div class="continer ">
+                  <nav class="container-fluid navbar navbar-expand-lg navbar-dark bg-black ">
+                        <h1 id="logo">Madrid</h1>
 
-            <header class="container-fluid">
-                  <div class="row">
-                        <nav class="navbar navbar-expand-lg navbar-light bg-dark contacto__nav">
-                              <div class="container-fluid">
-                                    <h1 id="logo" class="contacto__h1">Madrid</h1>
+                        <button class="navbar-toggler bg-transparent border-0  " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                              <ul class="navbar-nav text-lg-end  ms-auto ps-2">
+                                    <li class="nav-item">
+                                          <a class="nav-link active text-warning" href="../index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                          <a class="nav-link text-warning text-nowrap" href="atractivos.html">Sus barrios</a>
+                                    </li>
+                                    <li class="nav-item">
+                                          <a class="nav-link text-warning" href="excursio.html">Excursiones</a>
+                                    </li>
+                                    <li class="nav-item">
+                                          <a class="nav-link text-warning" href="info.html">Eventos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                          <a class="nav-link text-warning" href="contacto.html">Contacto</a>
+                                    </li>
+                              </ul>
+                        </div>
 
-                                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                                          <span class="navbar-toggler-icon fondo2"></span>
-                                    </button>
-                                    <div class="collapse navbar-collapse" id="navbarNav">
-                                          <ul class="navbar-nav text-lg-end ms-auto">
-                                                <li class="nav-item">
-                                                      <a class="nav-link active text-light" href="../index.html">Home</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                      <a class="nav-link text-light text-nowrap" href="atractivos.html">Sus barrios</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                      <a class="nav-link text-light" href="excursio.html">Excursiones</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                      <a class="nav-link text-light" href="info.html">Eventos</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                      <a class="nav-link text-light" href="contacto.html">Contacto</a>
-                                                </li>
+
+                  </nav>
+
+
+                  <!-- ***************************************************************** -->
+
+                  <header class="container">
+                        <div class="row pt-5">
+                              <h2 id="titulo--contacto" class="col-12 text-center text-light textShadow fz-title garine colorTitulo">CONTACTANOS</h2>
+                        </div>
+                  </header>
+
+                  <div class="container">
+                        <div class=" row d-flex flex-column justify-content-center align-items-center">
+                              <aside class="col-11 col-md-10 col-lg-6  mx-md-auto  py-5 ">
+                                    <form action="enviar_formulario.php" method="post" enctype="multipart/form-data">
+                                          <div class="my-4 rounded-3">
+                                                <input type="text" class="form-control" placeholder="Nombre" aria-label="nombre" name="nombre" />
+                                          </div>
+
+                                          <div class="my-4 rounded-3">
+                                                <input type="text" class="form-control" placeholder="Apellido" aria-label="apellido" name="apellido" />
+                                          </div>
+
+                                          <div class=" my-4 rounded-3">
+                                                <input type="email" class="form-control" placeholder="mail">
+                                          </div>
+                                          <fieldset class=" mx-auto rounded-3 borde px-2 mtop">
+                                                <div class=" mx-auto bg-transparent rounded-3 py-2 ">
+                                                      <legend class="text-warning px-3">Genero</legend>
+                                                      <div class="form-check py-1 bg-light rounded-3 my-3">
+                                                            <input class="form-check-input mx-1" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked />
+                                                            <label class="form-check-label" for="gridRadios1">
+                                                                  Femenino
+                                                            </label>
+                                                      </div>
+                                                      <div class="form-check py-1 bg-light rounded-3 my-3">
+                                                            <input class="form-check-input mx-1" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                                            <label class="form-check-label" for="gridRadios2">
+                                                                  Masculino </label>
+                                                      </div>
+                                                      <div class="form-check py-1 bg-light rounded-3">
+                                                            <input class="form-check-input mx-1" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                                                            <label class="form-check-label" for="gridRadios3">
+                                                                  Otro
+                                                            </label>
+                                                      </div>
+                                                </div>
+                                          </fieldset>
+
+                                          <div class="d-flex justify-content-end mtop">
+                                                <button type="submit" class="btn btn-info text-light fw-bold sombra ">Enviar</button>
+                                          </div>
+                                    </form>
+                              </aside>
+                        </div>
+                  </div>
+
+                  <footer class=" h-auto  bg-black ">
+                        <div class="continer pb-5">
+                              <div class="row justify-content-center h-50">
+                                    <div class="col-10 align-self-center">
+                                          <h2 id="logo--footer" class=" mt-2">Madrid</h2>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="container justify-content-center">
+                              <div class="row d-flex flex-column align-content-center d-lg-flex flex-lg-row justify-content-lg-around align-content-lg-center">
+                                    <ul class="col-12 col-lg  text-warning">
+                                          <li class="list--style fw-bolder letterSpace text-center fs-4">Ayuntamiento de Madrid</li>
+                                          <li class="list--style fw-bold letterSpace text-center fs-6">Direccion de Turismo</li>
+                                          <li class="list--style text-center letterSpace fs-6 text-md-center">Prta del Sol, 7, 28013 Madrid, España</li>
+                                    </ul>
+
+                                    <div class="col-12 col-lg pb-5">
+                                          <h3 class="text-warning text-center fs-6">Seguinos en nuestas redes sociales</h3>
+                                          <ul class="d-flex justify-content-center p-0 m-0">
+                                                <li class="list--style px-2""><a class=" fb d-block" href="https://www.facebook.com">Facebook</a></li>
+                                                <li class="list--style px-2"><a class="yt d-block " href="https://www.youtube.com/">YouTube</a></li>
+                                                <li class="list--style px-2"><a class="tw d-block " href="https://twitter.com/?lang=es">Twitter</a></li>
                                           </ul>
                                     </div>
                               </div>
-                        </nav>
-
-                        <div id="carouselExampleCaptions" class="carousel slide p-0" data-bs-ride="carousel">
-                              <!-- <div class="carousel-indicators">
-                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                              </div> -->
-                              <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                          <img src="../img/panoramicaMadrid.jpg" class=" img-fluid d-block w-100" alt="...">
-                                          <div class="carousel-caption d-none d-md-block">
-                                                <h2>First slide label</h2>
-                                                <aside class="container-fluid">
-                                                      <div class="row justify-content-between align-items-center">
-                                                            <h3 class="col-md text-center">Si necesitas más información sobre la ciudad, dejanos tu mail y nos comunicaremos contigo...</h3>
-                                                            <form action="http://recursos.grodriguez.com.ar/FORM/" method="post" enctype="multipart/form-data" class="form-floating ">
-
-                                                                  <div class="row justify-content-center my-5">
-                                                                        <div class="col-12 col-md">
-                                                                              <input id="nombre" type="text" name="Nombre" class="form-control" placeholder="nombre" aria-label="First name">
-                                                                        </div>
-                                                                        <div class="col-12 col-md">
-                                                                              <input type="text" name="Apellido" class="form-control" placeholder="Apellido" aria-label="Last name">
-                                                                        </div>
-                                                                  </div>
-
-
-                                                                  <div class="row mb-3 justify-content-center">
-                                                                        <!-- <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label> -->
-                                                                        <div class="col-sm-10">
-                                                                              <input type="email" class="form-control" id="inputEmail3" placeholder="Escriba su dirección de mail">
-                                                                        </div>
-                                                                  </div>
-
-                                                                  <fieldset class="row mb-3 border-5 border-warning bg-light text-dark">
-                                                                        <legend class="col-form-label col-sm-12 pt-0 text-center">Genero</legend>
-                                                                        <div class="col-md">
-                                                                              <div class="form-check justify-content-center">
-                                                                                    <input class="form-check-input" type="radio" name="genero" id="gridRadios1" value="Masculino" checked>
-                                                                                    <label class="form-check-label" for="gridRadios1">
-                                                                                          Masculino
-                                                                                    </label>
-                                                                              </div>
-                                                                              <div class="form-check">
-                                                                                    <input class="form-check-input" type="radio" name="genero" id="gridRadios2" value="Femeninos">
-                                                                                    <label class="form-check-label" for="gridRadios2">
-                                                                                          Femenino
-                                                                                    </label>
-                                                                              </div>
-                                                                              <div class="form-check">
-                                                                                    <input class="form-check-input " type="radio" name="genero" id="gridRadios3" value="Otros">
-                                                                                    <label class="form-check-label" for="gridRadios3">
-                                                                                          Otros
-                                                                                    </label>
-                                                                              </div>
-                                                                        </div>
-                                                                  </fieldset>
-                                                                  <div class="row mb-3">
-                                                                        <div class="col-sm-10 offset-sm-2">
-                                                                              <div class="form-check">
-                                                                                    <input class="form-check-input" type="checkbox" id="gridCheck1">
-                                                                                    <label class="form-check-label" for="gridCheck1">
-                                                                                          Example checkbox
-                                                                                    </label>
-                                                                              </div>
-                                                                        </div>
-                                                                  </div>
-                                                                  <button type="submit" class="btn btn-primary">Sign in</button>
-
-
-
-
-
-
-                                                            </form>
-                                                      </div>
-                                                </aside>
-
-
-
-                                                <!-- <p>Some representative placeholder content for the first slide.</p> -->
-                                          </div>
-                                    </div>
-                                    <!-- <div class="carousel-item">
-                                          <img src="..." class="d-block w-100" alt="...">
-                                          <div class="carousel-caption d-none d-md-block">
-                                                <h5>Second slide label</h5>
-                                                <p>Some representative placeholder content for the second slide.</p>
-                                          </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                          <img src="..." class="d-block w-100" alt="...">
-                                          <div class="carousel-caption d-none d-md-block">
-                                                <h5>Third slide label</h5>
-                                                <p>Some representative placeholder content for the third slide.</p>
-                                          </div>
-                                    </div> -->
-                              </div>
-                              <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
-                              </button>
-                              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
-                              </button> -->
                         </div>
 
-                  </div>
 
-                  <div class="w100 d-none d-md-block"></div>
-            </header>
-
-            <aside class="container-fluid filter">
-                  <div class="row">
-                        <p class="col-md text-center">Si necesitas más información sobre la ciudad, dejanos tu mail y nos comunicaremos contigo...</p>
-                        <form action="http://recursos.grodriguez.com.ar/FORM/" method="post" enctype="multipart/form-data">
-                              <div>
-                                    <label>Nombre</label>
-                                    <input type="text" name="nombre" required />
-                              </div>
-                              <div>
-                                    <label>email</label>
-                                    <input type="email" name="mail" required placeholder="mi.mail@algo.com" />
-                              </div>
-                              <div>
-                                    <label>Tu comentario</label>
-                                    <textarea name="comentario" cols="45" rows="15"></textarea>
-                              </div>
-
-                              <div id="boton">
-                                    <input type="button" value="Enviar">
-                              </div>
-                        </form>
-                  </div>
-            </aside>
-
-            <footer class="container-fluid h-auto p-0">
-                  <div class="py-3 ps-xl-3 w-75 mx-auto">
-                        <h2 id="logo--footer" class="col-12 col-md justify-content-md-center">Madrid</h2>
-                  </div>
-                  <div class="row">
-                        <ul class="col-12 col-md-5 d-flex flex-column justify-content-center ps-5 text-warning">
-                              <li class="list--style fw-bolder letterSpace text-center">Ayuntamiento de Madrid</li>
-                              <li class="list--style fw-bold text-center">Direccion de Turismo</li>
-                              <li class="list--style text-center text-md-center">Prta del Sol, 7, 28013 Madrid, España</li>
-                        </ul>
-
-                        <div class="col-12 col-md-5 d-flex flex-column d-lg-flex flex-row">
-                              <h3 class="text-warning fs-5 text-center">Seguinos en nuestas redes sociales</h3>
-                              <ul class="d-flex justify-content-center p-0 m-0">
-                                    <li class="col-auto list--style px-2""><a class=" fb d-block" href="https://www.facebook.com">Facebook</a></li>
-                                    <li class="col-auto list--style px-2"><a class="yt d-block " href="https://www.youtube.com/">YouTube</a></li>
-                                    <li class="col-auto list--style px-2"><a class="tw d-block " href="https://twitter.com/?lang=es">Twitter</a></li>
-                              </ul>
+                        <div class="container">
+                              <p class=" text-start copy-size text-warning ps-2 pb-2 m-0">&copy Roberto Trezzini, 2022.-</p>
                         </div>
-                  </div>
-                  <div>
-                        <p class="col-12 text-start fs-6 text-warning ps-2 pb-2">&copy Roberto Trezzini, 2022.-</p>
-                  </div>
 
 
 
-            </footer>
+                  </footer>
 
-
+            </div>
             <script src="../js/picturefill.js"></script>
             <script src="../js/bootstrap.bundle.js"></script>
       </body>

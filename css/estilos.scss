@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap");
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Roboto', sans-serif;
 @font-face {
 	font-family: "garinefirst";
 	src: url("../fuentes/garine-first-webfont.eot");
@@ -13,13 +16,19 @@
 .garine {
 	font-family: "garinefirst";
 }
+.roboto {
+	font-family: "Roboto", sans-serif;
+}
 
 .fz-title {
-	font-size: 4rem;
+	font-size: 3rem;
+}
+.copy-size {
+	font-size: 0.6rem;
 }
 
 .borde {
-	border: 1px solid black;
+	border: 3px solid wheat;
 }
 
 .fondo1 {
@@ -48,6 +57,9 @@
 
 .fondo6 {
 	background-color: aquamarine;
+}
+.fondo7 {
+	background-color: rgba(black, 0.5);
 }
 
 .color {
@@ -120,12 +132,6 @@ $fw: 600;
 		background-attachment: fixed;
 		font-weight: $fw;
 	}
-}
-
-footer {
-	height: 10rem;
-
-	background-color: rgba(44, 43, 43, 0.623);
 }
 
 .sombra {
@@ -216,14 +222,12 @@ footer {
 	// z-index: 1;
 }
 $no: none;
-$bannerContact: 40vh;
-$solFondo: url("../img/dibuSol.jpg");
+$bannerContact: 60vh;
+$solFondo: url("../img/");
 $bgcontain: contain;
 
 .contacto__header {
-	width: 100vw;
-	height: $bannerContact;
-	background-image: url("../img/debod-desk.jpg");
+	background-image: url("../img/panoramicaMadrid.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -236,4 +240,31 @@ $bgcontain: contain;
 }
 .letterSpace {
 	letter-spacing: 1px;
+}
+#navbarNav ul li a {
+	color: wheat;
+
+	transition: color 0.5s ease-in;
+}
+#navbarNav ul li a:hover {
+	color: lime;
+}
+.contacto__imagen {
+	background-image: url("../img/man.png");
+	background-size: cover;
+	width: 574px;
+	height: 509px;
+	background-repeat: no;
+}
+.texto-none {
+	text-indent: -5000;
+}
+.robotoFigcap {
+	font-family: "Roboto", sans-serif;
+}
+.paddx {
+	padding: 0 4rem;
+}
+.espacioTitulo {
+	letter-spacing: 2px;
 }
