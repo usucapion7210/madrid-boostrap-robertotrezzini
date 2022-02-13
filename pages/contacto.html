@@ -22,7 +22,7 @@
       <body class="contacto__header">
             <div class="continer ">
                   <nav class="container-fluid navbar navbar-expand-lg navbar-dark bg-black ">
-                        <h1 id="logo">Madrid</h1>
+                        <h1 id="logo"> Madrid</h1>
 
                         <button class="navbar-toggler bg-transparent border-0  " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                               <span class="navbar-toggler-icon"></span>
@@ -64,15 +64,15 @@
                               <aside class="col-11 col-md-10 col-lg-6  mx-md-auto  py-5 ">
                                     <form action="enviar_formulario.php" method="post" enctype="multipart/form-data">
                                           <div class="my-4 rounded-3">
-                                                <input type="text" class="form-control" placeholder="Nombre" aria-label="nombre" name="nombre" />
+                                                <input type="text" class="form-control" placeholder="Nombre" aria-label="nombre" name="nombre" required />
                                           </div>
 
                                           <div class="my-4 rounded-3">
-                                                <input type="text" class="form-control" placeholder="Apellido" aria-label="apellido" name="apellido" />
+                                                <input type="text" class="form-control" placeholder="Apellido" aria-label="apellido" name="apellido" required />
                                           </div>
 
                                           <div class=" my-4 rounded-3">
-                                                <input type="email" class="form-control" placeholder="mail">
+                                                <input type="email" class="form-control" placeholder="mail" required>
                                           </div>
                                           <fieldset class=" mx-auto rounded-3 borde px-2 mtop">
                                                 <div class=" mx-auto bg-transparent rounded-3 py-2 ">
@@ -97,10 +97,14 @@
                                                 </div>
                                           </fieldset>
 
-                                          <div class="d-flex justify-content-end mtop">
-                                                <button type="submit" class="btn btn-info text-light fw-bold sombra ">Enviar</button>
+                                          <div class="form-floating mtop">
+                                                <textarea class="form-control" placeholder="Leave a comment here" id="comment"></textarea>
+                                                <label for="comment">Tu comentario</label>
                                           </div>
                                     </form>
+                                    <div class="d-flex justify-content-end mtop">
+                                          <button type="submit" class="btn btn-info text-light fw-bold sombra ">Enviar</button>
+                                    </div>
                               </aside>
                         </div>
                   </div>
